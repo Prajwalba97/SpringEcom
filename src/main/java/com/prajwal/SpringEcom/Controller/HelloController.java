@@ -8,7 +8,7 @@ public class HelloController {
 
 	@GetMapping("/api/hello")
 	public String greet() {
-		return "Hello Controller Application";
+		return "Hello Controller App";
 		
 	}
 }
